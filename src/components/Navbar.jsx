@@ -30,7 +30,7 @@ export const Navbar = () => {
             menuOpen ? "block" : "hidden"
           }`}
         >
-           <div className="space-x-4 flex items-center md:hidden">
+           <div className="space-x-4 flex items-center md:hidden w-full">
             <Link to="/login">
               <button className="border-none bg-[#afad55] text-white px-4 py-2 md:w-[6vw]">
                 Sign In
