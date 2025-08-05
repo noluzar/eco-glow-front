@@ -57,12 +57,12 @@ export const Navbar = () => {
         </div>
           <div className="hidden space-x-4 md:flex items-center">
             <Link to="/login">
-              <button className="border-none bg-[#afad55] text-white px-4 py-2 w-[6vw]">
+              <button className="border-none bg-[#afad55] text-white px-4 py-2 md:w-[6vw]">
                 Sign In
               </button>
             </Link>
             <Link to="/register">
-              <button className="border border-black px-4 py-2 w-[6vw]">
+              <button className="border border-black px-4 py-2 md:w-[6vw]">
                 Sign Up
               </button>
             </Link>
